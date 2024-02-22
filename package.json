@@ -1,0 +1,15 @@
+{
+  "name": "testrabbit",
+  "version": "1.0.0",
+  "description": "Testen wat rabbitmq doet",
+  "main": "producer.js",
+  "scripts": {
+    "start": "NODE_TLS_REJECT_UNAUTHORIZED='0' node producerToExchange.js",
+    "test": "NODE_TLS_REJECT_UNAUTHORIZED='0' node client.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}

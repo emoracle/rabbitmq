@@ -1,0 +1,63 @@
+Starting RabbitMQ with SSL...
+Unable to find image 'rabbitmq:management' locally
+management: Pulling from library/rabbitmq
+e2058f40ddfd: Download complete
+6747ece6f225: Download complete
+db9e77bbd5ae: Download complete
+14842ccb66ba: Download complete
+ae48820b29ec: Download complete
+3513f51346f7: Download complete
+a7389fc6e8a2: Download complete
+e213fb40f853: Download complete
+57791f73483d: Download complete
+36e7700ef02b: Download complete
+01007420e9b0: Download complete
+c36f9c24dfac: Download complete
+Digest: sha256:d6aa1460f2a5aeb4bdde87669efeb3c68777a3a9c9937c0395f3935e2ca2fc87
+Status: Downloaded newer image for rabbitmq:management
+afba32481659324440460e6076277640e1550635f828325c4383b2dd2622e58d
+RabbitMQ with SSL is starting up... Logs can be found in /home/edwin/rabbitmq/logs/rabbitmq_docker.log
+Starting RabbitMQ with SSL...
+docker: Error response from daemon: Conflict. The container name "/rabbitmq" is already in use by container "afba32481659324440460e6076277640e1550635f828325c4383b2dd2622e58d". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+Failed to start RabbitMQ with SSL. Check logs in /home/edwin/rabbitmq/logs/rabbitmq_docker.log for details.
+Starting RabbitMQ with SSL...
+0f9925c350feba2b11b3ef17710b1961b4e8dfa01ba3c217ea1ee66afd6f579b
+RabbitMQ with SSL is starting up... Logs can be found in /home/edwin/rabbitmq/logs/rabbitmq_docker.log
+Starting RabbitMQ with SSL...
+b24213d8b72a5bc7c60f1d3e34fb5b331567804ec850a2d93e3f8af6cf523504
+RabbitMQ with SSL is starting up... Logs can be found in /home/edwin/rabbitmq/logs/rabbitmq_docker.log
+Starting RabbitMQ with SSL...
+docker: invalid reference format.
+See 'docker run --help'.
+./bin/startRabbitContainer.sh: line 70: -v: command not found
+Failed to start RabbitMQ with SSL. Check logs in /home/edwin/rabbitmq/logs/rabbitmq_docker.log for details.
+Starting RabbitMQ with SSL...
+docker: invalid reference format.
+See 'docker run --help'.
+./bin/startRabbitContainer.sh: line 70: -v: command not found
+Failed to start RabbitMQ with SSL. Check logs in /home/edwin/rabbitmq/logs/rabbitmq_docker.log for details.
+Starting RabbitMQ with SSL...
+docker: invalid reference format.
+See 'docker run --help'.
+./bin/startRabbitContainer.sh: line 70: -v: command not found
+Failed to start RabbitMQ with SSL. Check logs in /home/edwin/rabbitmq/logs/rabbitmq_docker.log for details.
+Starting RabbitMQ with SSL...
+Unable to find image 'rabbitmq:management' locally
+management: Pulling from library/rabbitmq
+57791f73483d: Download complete
+14842ccb66ba: Download complete
+6747ece6f225: Download complete
+e2058f40ddfd: Download complete
+3513f51346f7: Download complete
+db9e77bbd5ae: Download complete
+ae48820b29ec: Download complete
+e213fb40f853: Download complete
+a7389fc6e8a2: Download complete
+36e7700ef02b: Download complete
+01007420e9b0: Download complete
+c36f9c24dfac: Download complete
+Digest: sha256:d6aa1460f2a5aeb4bdde87669efeb3c68777a3a9c9937c0395f3935e2ca2fc87
+Status: Downloaded newer image for rabbitmq:management
+37912254e18be1c90d13f101d50c45d9ef558e7f67f14574e6dc306125c1ef28
+RabbitMQ with SSL is starting up... Logs can be found in /home/edwin/rabbitmq/logs/rabbitmq_docker.log
