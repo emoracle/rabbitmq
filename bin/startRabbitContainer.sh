@@ -1,4 +1,8 @@
 #!/bin/bash
+# Create a rabbitmq docker container with ssl enabled and several 
+# plugins enabled like shovel
+#
+#
 
 # Check if the RabbitMQ data volume exists
 if docker volume ls | grep -q rabbitmq_data; then
