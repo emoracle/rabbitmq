@@ -54,6 +54,7 @@ async function sendToQueue(queueName, exchangeName, routingKey, message) {
         };
 
         const options = {
+            mandatory: true,
             headers: {
                 "x-bla": "5000"
             }
