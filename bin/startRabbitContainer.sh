@@ -15,16 +15,16 @@ fi
 # Starten met SSL
 
 CONTAINER_NAME="rabbitmq"
-RABBITMQ_CONFIG_PATH="/home/edwin/rabbitmq/conf/rabbitmq.conf"
-RABBITMQ_PLUGINS_PATH="/home/edwin/rabbitmq/conf/enabled_plugins"
-CA_CERT_PATH="/home/edwin/rabbitmq/certs/ca_certificate.pem"
-SERVER_CERT_PATH="/home/edwin/rabbitmq/certs/server_certificate.pem"
-SERVER_KEY_PATH="/home/edwin/rabbitmq/certs/server_key.pem"
+RABBITMQ_CONFIG_PATH="/home/edwin/develop/rabbitmq/conf/rabbitmq.conf"
+RABBITMQ_PLUGINS_PATH="/home/edwin/develop/rabbitmq/conf/enabled_plugins"
+CA_CERT_PATH="/home/edwin/develop/rabbitmq/certs/ca_certificate.pem"
+SERVER_CERT_PATH="/home/edwin/develop/rabbitmq/certs/server_certificate.pem"
+SERVER_KEY_PATH="/home/edwin/develop/rabbitmq/certs/server_key.pem"
 RABBITMQ_DEFAULT_USER="user"
 RABBITMQ_DEFAULT_PASS="password"
 SSL_PORT=5671
 MANAGEMENT_PORT=15672
-LOG_FILE="/home/edwin/rabbitmq/logs/rabbitmq_docker.log"
+LOG_FILE="/home/edwin/develop/rabbitmq/logs/rabbitmq_docker.log"
 
 # Ensure the SSL certificate files have secure permissions (Note for users)
 echo "Ensure SSL certificate files have secure permissions set."
